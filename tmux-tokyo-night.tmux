@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# ----- General -----
+
+tmux set-option -g pane-active-border-style "bg=default fg=magenta"
+tmux set-option -g pane-border-style "bg=default fg=magenta"
+
 # ----- Messages -----
 tmux set-option -g mode-style 'bg=color18, fg=orange'
 tmux set-option -g message-style 'bg=color18, fg=orange'
